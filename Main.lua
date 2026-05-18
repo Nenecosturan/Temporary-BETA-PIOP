@@ -257,7 +257,7 @@ TabBrowser:CreateButton({
                         Rayfield:Notify({Title = "You're currently here", Content = "This is you'r current server", Duration = 3})
                         return
                     end
-                    Rayfield:Notify({Title = "Connecting...", Content = current .. "/" .. max .. " Full server!", Duration = 2})
+                    Rayfield:Notify({Title = "Connecting...", Content = current .. "/" .. max .. " Connecting you into the server...", Duration = 2})
                     TeleportService:TeleportToPlaceInstance(PlaceId, v.id, LocalPlayer)
                 end
             })
